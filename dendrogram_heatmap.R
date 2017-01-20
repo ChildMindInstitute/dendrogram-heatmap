@@ -1,5 +1,5 @@
 # From the BioConductor R package: http://manuals.bioinformatics.ucr.edu/home/R_BioCondManual#clustering_primer
-# (c/o Aki at CMI, 2016)
+# (c/o Aki at Child Mind Institute, 2016)
 # Apache v2.0 License
 
 hr <- hclust(as.dist(1-cor(t(Std_IVs_CBCL_Full), method="spearman")), method="ward.D2"); 
