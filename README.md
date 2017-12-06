@@ -1,1 +1,1 @@
-# dendrogram_heatmap
+# dendrogram-heatmap
